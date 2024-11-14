@@ -94,3 +94,23 @@
 .search i:hover::after{
     width:100%
 }
+.bar{
+    position:absolute;
+    margin:auto;
+    display:none;
+}
+.bar span{
+    position:absolute;
+    color:#fff;
+    font-size:35px;
+}
+input[type="checkbox"]{
+    -webkit-appearance:none;
+    display: none;
+}
+@media screen and(max-width:1250px){
+    .nav{
+        display:block;
+        padding :0;
+    }
+}
