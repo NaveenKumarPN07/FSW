@@ -31,45 +31,5 @@
       <button type="submit" class="submit-btn">Register</button>
     </form>
   </div>
-  <script>
-       
-        document.getElementById('signForm').addEventListener('submit', function(event) {
-            event.preventDefault(); 
-            
-            
-            const fullName = document.getElementById('fullName').value;
-            const email = document.getElementById('email').value;
-            const phone = document.getElementById('phone').value;
-            const signature = document.getElementById('signature').value;
-
-          
-            const formData = {
-                fullName,
-                email,
-                phone,
-                signature
-            };
-
-            localStorage.setItem('resumeSignDetails', JSON.stringify(formData));
-
-            
-            document.getElementById('statusMessage').innerText = 'Details saved successfully!';
-            
-            
-            document.getElementById('signForm').reset();
-        });
-
-      
-        window.onload = function() {
-            const savedData = JSON.parse(localStorage.getItem('resumeSignDetails'));
-            if (savedData) {
-                document.getElementById('fullName').value = savedData.fullName;
-                document.getElementById('email').value = savedData.email;
-                document.getElementById('phone').value = savedData.phone;
-                document.getElementById('signature').value = savedData.signature;
-            }
-        };
-    </script>
-
 </body>
 </html>
