@@ -68,10 +68,21 @@ body{
 .container .content .right-side .input-box{
     height:50px;
     width:100%;
+    margin:12px 0;
+    border:none;
+    border-radius:6px;
+    background: #F0F1F8;
 }
+.container .content .right-side .message-box textarea,*
 .container .content .right-side .input-box input{
     height:100%;
     width:100%;
+    font-size:14px;
+    font-weight: 600;
+    padding:0 15px;
+    border:none;
+    border-radius:6px;
+    background: #F0F1F8;
 }
 
 

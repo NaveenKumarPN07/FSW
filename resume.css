@@ -7,7 +7,7 @@
 .nav{
     display:flex;
     width:100%;
-    background: #0a5071;
+    background: rgb(97,94,94);
     position :relative;
     justify-content: space-between;
     text-align:center ;
