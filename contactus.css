@@ -73,7 +73,7 @@ body{
     border-radius:6px;
     background: #F0F1F8;
 }
-.container .content .right-side .message-box textarea,*
+.container .content .right-side .message-box textarea,
 .container .content .right-side .input-box input{
     height:100%;
     width:100%;
@@ -83,6 +83,13 @@ body{
     border:none;
     border-radius:6px;
     background: #F0F1F8;
+    resize:none;
+}
+.container .content .right-side  .message-box{
+    min-height:110px;
+}
+.container .content .right-side .button input{
+    
 }
 
 
